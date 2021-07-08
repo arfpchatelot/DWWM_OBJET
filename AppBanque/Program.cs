@@ -28,7 +28,7 @@ namespace AppComptes
             //    Console.WriteLine(A);
 
             //}
-            Banque BNP = new Banque("BANQUE NATIONAL PARIS", "MULHOUSE");
+            BanqueListe BNP = new BanqueListe("BANQUE NATIONAL PARIS", "MULHOUSE");
             bool ajout;
 
            ajout= BNP.AjouterCompte("Séraphin", 123456, 3000.10, -5000);
@@ -48,11 +48,23 @@ namespace AppComptes
             {
                 Console.WriteLine("numero de compte existant, ajout impossible");
             }
-            Console.WriteLine("recherche d'un compte: " + BNP.RendCompte(123458));
+            Console.WriteLine("recherche d'un compte: " + BNP.RendCompte(123457));
 
 
-            // Compte max = BNP.CompteSup();
-          //  Console.WriteLine(" Le compte ayant la provision maximum de la banque est : " + BNP.CompteSup());
+             Compte max = BNP.CompteSup();
+
+            Console.WriteLine(" Le compte ayant la provision maximum de la banque est : " + BNP.CompteSup());
+            string message_erreur = "";
+            bool test = BNP.VirementBanque(894561, 145689, 33000,out message_erreur);
+
+           // Console.WriteLine(message_erreur);
+             if (!test)
+             {
+                 Console.WriteLine(message_erreur);
+
+             }
+            Console.WriteLine(" Le compte ayant la provision maximum de la banque est : " + BNP.CompteSup());
+
 
             Console.ReadKey();
 
