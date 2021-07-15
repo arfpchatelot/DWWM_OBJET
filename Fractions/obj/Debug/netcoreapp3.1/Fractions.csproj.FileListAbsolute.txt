@@ -1,0 +1,8 @@
+C:\Users\Stagiaire\Documents\projet_DWWM0521\Fractions\bin\Debug\netcoreapp3.1\Fractions.deps.json
+C:\Users\Stagiaire\Documents\projet_DWWM0521\Fractions\bin\Debug\netcoreapp3.1\Fractions.dll
+C:\Users\Stagiaire\Documents\projet_DWWM0521\Fractions\bin\Debug\netcoreapp3.1\Fractions.pdb
+C:\Users\Stagiaire\Documents\projet_DWWM0521\Fractions\obj\Debug\netcoreapp3.1\Fractions.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\projet_DWWM0521\Fractions\obj\Debug\netcoreapp3.1\Fractions.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\projet_DWWM0521\Fractions\obj\Debug\netcoreapp3.1\Fractions.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\projet_DWWM0521\Fractions\obj\Debug\netcoreapp3.1\Fractions.dll
+C:\Users\Stagiaire\Documents\projet_DWWM0521\Fractions\obj\Debug\netcoreapp3.1\Fractions.pdb
