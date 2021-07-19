@@ -27,7 +27,7 @@ namespace Points
 
         public override string ToString()
         {
-            return " Point a pour abscisse: "+ this.Abscisse+ " et pour ordonnée : "+ this.Ordonnee;
+            return "Point à pour coordonnées :  abscisse: "+ this.Abscisse+ "  ordonnée : "+ this.Ordonnee;
         }
         public void Permuter()
         {
@@ -60,10 +60,11 @@ namespace Points
           
             double res = Math.Sqrt(Math.Pow((_B.Abscisse - this.Abscisse), 2) + Math.Pow((_B.Ordonnee - this.Ordonnee), 2));
                 return res;
-
-
-
-
+        }
+        public static double Distance(Point A, Point B)
+        {
+            double res = Math.Sqrt(Math.Pow((B.Abscisse - A.Abscisse), 2) + Math.Pow((B.Ordonnee - A.Ordonnee), 2));
+            return res;
         }
 
     }
